@@ -486,13 +486,13 @@ s,@INSTALL_SCRIPT@,${INSTALL},;t t
 s,@INSTALL_DATA@,${INSTALL} -m 644,;t t
 s,@PACKAGE@,vhpop,;t t
 s,@VERSION@,3.0,;t t
-s,@ACLOCAL@,${SHELL} /home/qaz/POP/vhpop-master/missing --run aclocal-1.6,;t t
-s,@AUTOCONF@,${SHELL} /home/qaz/POP/vhpop-master/missing --run autoconf,;t t
-s,@AUTOMAKE@,${SHELL} /home/qaz/POP/vhpop-master/missing --run automake-1.6,;t t
-s,@AUTOHEADER@,${SHELL} /home/qaz/POP/vhpop-master/missing --run autoheader,;t t
-s,@MAKEINFO@,${SHELL} /home/qaz/POP/vhpop-master/missing --run makeinfo,;t t
-s,@AMTAR@,${SHELL} /home/qaz/POP/vhpop-master/missing --run tar,;t t
-s,@install_sh@,/home/qaz/POP/vhpop-master/install-sh,;t t
+s,@ACLOCAL@,${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run aclocal-1.6,;t t
+s,@AUTOCONF@,${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run autoconf,;t t
+s,@AUTOMAKE@,${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run automake-1.6,;t t
+s,@AUTOHEADER@,${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run autoheader,;t t
+s,@MAKEINFO@,${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run makeinfo,;t t
+s,@AMTAR@,${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run tar,;t t
+s,@install_sh@,/home/qaz/POP/vhpop_CS15S005/install-sh,;t t
 s,@STRIP@,,;t t
 s,@ac_ct_STRIP@,,;t t
 s,@INSTALL_STRIP_PROGRAM@,${SHELL} $(install_sh) -c -s,;t t

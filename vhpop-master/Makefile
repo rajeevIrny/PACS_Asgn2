@@ -38,10 +38,10 @@ pkglibdir = $(libdir)/vhpop
 pkgincludedir = $(includedir)/vhpop
 top_builddir = .
 
-ACLOCAL = ${SHELL} /home/qaz/POP/vhpop-master/missing --run aclocal-1.6
-AUTOCONF = ${SHELL} /home/qaz/POP/vhpop-master/missing --run autoconf
-AUTOMAKE = ${SHELL} /home/qaz/POP/vhpop-master/missing --run automake-1.6
-AUTOHEADER = ${SHELL} /home/qaz/POP/vhpop-master/missing --run autoheader
+ACLOCAL = ${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run aclocal-1.6
+AUTOCONF = ${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run autoconf
+AUTOMAKE = ${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run automake-1.6
+AUTOHEADER = ${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run autoheader
 
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 INSTALL = /usr/bin/install -c
@@ -63,7 +63,7 @@ POST_UNINSTALL = :
 EXEEXT = 
 OBJEXT = o
 PATH_SEPARATOR = :
-AMTAR = ${SHELL} /home/qaz/POP/vhpop-master/missing --run tar
+AMTAR = ${SHELL} /home/qaz/POP/vhpop_CS15S005/missing --run tar
 AWK = mawk
 CC = gcc
 CXX = g++
@@ -78,7 +78,7 @@ VERSION = 3.0
 YACC = bison -y
 am__include = include
 am__quote = 
-install_sh = /home/qaz/POP/vhpop-master/install-sh
+install_sh = /home/qaz/POP/vhpop_CS15S005/install-sh
 
 bin_PROGRAMS = vhpop
 vhpop_SOURCES = vhpop.cc mathport.h refcount.cc refcount.h chain.h types.cc types.h terms.cc terms.h predicates.cc predicates.h functions.cc functions.h expressions.cc expressions.h formulas.cc formulas.h effects.cc effects.h actions.cc actions.h domains.cc domains.h problems.cc problems.h bindings.cc bindings.h orderings.cc orderings.h flaws.cc flaws.h heuristics.cc heuristics.h plans.cc plans.h parameters.cc parameters.h requirements.cc requirements.h pddl.yy tokens.ll debug.h
